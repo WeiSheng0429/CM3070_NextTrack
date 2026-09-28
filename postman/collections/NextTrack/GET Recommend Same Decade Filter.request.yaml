@@ -1,0 +1,10 @@
+$kind: http-request
+name: GET Recommend Same Decade Filter
+url: http://localhost:5000/api/recommend?track=Shut%20Down&artist=BLACKPINK&sameDecade=true
+method: GET
+queryParams:
+  track: Shut%20Down
+  artist: BLACKPINK
+  sameDecade: "true"
+examples: .resources/GET Recommend Same Decade Filter.resources/examples
+order: 4470005297712683

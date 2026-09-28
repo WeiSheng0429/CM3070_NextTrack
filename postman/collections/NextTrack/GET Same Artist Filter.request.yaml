@@ -1,0 +1,10 @@
+$kind: http-request
+name: GET Same Artist Filter
+url: http://localhost:5000/api/recommend?track=Shut%20Down&artist=BLACKPINK&sameArtist=true
+method: GET
+queryParams:
+  track: Shut%20Down
+  artist: BLACKPINK
+  sameArtist: "true"
+examples: .resources/GET Same Artist Filter.resources/examples
+order: 4489517857659814

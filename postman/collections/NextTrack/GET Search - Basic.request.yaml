@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:5000/api/search?q=Shut%20Down
+method: GET
+queryParams:
+  q: Shut%20Down
+examples: .resources/GET Search - Basic.resources/examples
+order: 1786694751964

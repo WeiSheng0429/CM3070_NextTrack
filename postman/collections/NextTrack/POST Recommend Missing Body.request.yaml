@@ -1,0 +1,5 @@
+$kind: http-request
+url: http://localhost:5000/api/recommend
+method: POST
+examples: .resources/POST Recommend Missing Body.resources/examples
+order: 4148373435548207

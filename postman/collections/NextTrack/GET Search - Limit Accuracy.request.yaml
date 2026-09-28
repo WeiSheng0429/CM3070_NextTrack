@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:5000/api/search?q=Shut%20Down&limit=3
+method: GET
+queryParams:
+  q: Shut%20Down
+  limit: "3"
+examples: .resources/GET Search - Limit Accuracy.resources/examples
+order: 3206175585216417

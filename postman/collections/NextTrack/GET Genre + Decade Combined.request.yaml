@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:5000/api/recommend?track=Shut%20Down&artist=BLACKPINK&genres=kpop&sameDecade=true
+method: GET
+queryParams:
+  track: Shut%20Down
+  artist: BLACKPINK
+  genres: kpop
+  sameDecade: "true"
+examples: .resources/GET Genre + Decade Combined.resources/examples
+order: 4473673899383277

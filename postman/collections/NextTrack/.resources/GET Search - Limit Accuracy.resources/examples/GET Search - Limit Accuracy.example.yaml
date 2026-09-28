@@ -1,0 +1,47 @@
+$kind: http-example
+request:
+  url: http://localhost:5000/api/search?q=Shut%20Down&limit=3
+  method: GET
+  queryParams:
+    q: Shut%20Down
+    limit: "3"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    access-control-allow-origin: "*"
+    content-type: application/json; charset=utf-8
+    content-length: "371"
+    etag: W/"173-AxluLQjnIeVzvekNaLQMAVWOl68"
+    date: Fri, 14 Aug 2026 08:30:01 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      {
+        "success": true,
+        "enriched": false,
+        "results": [
+          {
+            "track": "Shut Down",
+            "artist": "BLACKPINK",
+            "listeners": 744812,
+            "mbid": "d89c8e16-a043-4c58-8752-727fd1fcca39"
+          },
+          {
+            "track": "Shut Down",
+            "artist": "The Beach Boys",
+            "listeners": 109878,
+            "mbid": "001d1209-2108-3617-a9e4-4f4782077188"
+          },
+          {
+            "track": "SHUT DOWN",
+            "artist": "CLASS:y",
+            "listeners": 40438,
+            "mbid": "ac68e0b2-a020-4dc1-a758-c161329a44be"
+          }
+        ]
+      }
+order: 1786696234122

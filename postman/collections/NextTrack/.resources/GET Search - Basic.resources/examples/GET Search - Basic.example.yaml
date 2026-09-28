@@ -1,0 +1,76 @@
+$kind: http-example
+request:
+  url: http://localhost:5000/api/search?q=Shut%20Down
+  method: GET
+  queryParams:
+    q: Shut%20Down
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    access-control-allow-origin: "*"
+    content-type: application/json; charset=utf-8
+    content-length: "833"
+    etag: W/"341-RuUVR1zHOpdhyI6NiGcXXWagzVY"
+    date: Fri, 14 Aug 2026 08:18:00 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      {
+        "success": true,
+        "enriched": false,
+        "results": [
+          {
+            "track": "Shut Down",
+            "artist": "BLACKPINK",
+            "listeners": 744812,
+            "mbid": "d89c8e16-a043-4c58-8752-727fd1fcca39"
+          },
+          {
+            "track": "Shut Down",
+            "artist": "The Beach Boys",
+            "listeners": 109878,
+            "mbid": "001d1209-2108-3617-a9e4-4f4782077188"
+          },
+          {
+            "track": "SHUT DOWN",
+            "artist": "CLASS:y",
+            "listeners": 40438,
+            "mbid": "ac68e0b2-a020-4dc1-a758-c161329a44be"
+          },
+          {
+            "track": "Shut Down",
+            "artist": "LFO",
+            "listeners": 14128,
+            "mbid": "05818526-baf4-34ec-8b6f-84034cdfbf58"
+          },
+          {
+            "track": "Shut Down",
+            "artist": "Amon Tobin",
+            "listeners": 12346,
+            "mbid": "2028e27a-85b8-4dcf-96df-6a3b404c77b5"
+          },
+          {
+            "track": "Shut Down",
+            "artist": "Soul Asylum",
+            "listeners": 11503,
+            "mbid": "07d9e6ca-6d19-4c3c-a933-f548075b890d"
+          },
+          {
+            "track": "Shut Down",
+            "artist": "Beach Boys",
+            "listeners": 10047,
+            "mbid": null
+          },
+          {
+            "track": "Shut Down",
+            "artist": "Massano",
+            "listeners": 8070,
+            "mbid": null
+          }
+        ]
+      }
+order: 1786695666269

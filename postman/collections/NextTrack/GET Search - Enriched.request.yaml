@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:5000/api/search?q=Shut%20Down&enrich=true
+method: GET
+queryParams:
+  q: Shut%20Down
+  enrich: "true"
+examples: .resources/GET Search - Enriched.resources/examples
+order: 2922127099829886

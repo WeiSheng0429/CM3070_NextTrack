@@ -1,0 +1,221 @@
+$kind: http-example
+request:
+  url: http://localhost:5000/api/recommend?track=Shut%20Down&artist=BLACKPINK&genres=kpop&sameDecade=true&sameArtist=true
+  method: GET
+  queryParams:
+    track: Shut%20Down
+    artist: BLACKPINK
+    genres: kpop
+    sameDecade: "true"
+    sameArtist: "true"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    access-control-allow-origin: "*"
+    content-type: application/json; charset=utf-8
+    content-length: "3431"
+    etag: W/"d67-Kn7oQqiIgENfPrKhRhOI+HdAs9w"
+    date: Fri, 14 Aug 2026 08:54:05 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      {
+        "success": true,
+        "searched": {
+          "track": "Shut Down",
+          "artist": "BLACKPINK",
+          "album": "BORN PINK",
+          "year": 2022,
+          "tags": [
+            "k-pop",
+            "pop",
+            "pop rap",
+            "hip hop",
+            "vocal"
+          ],
+          "bpm": null,
+          "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/1c8a155fb6f7ec750f7a1543279cbca5.png",
+          "youtube": {
+            "videoId": "POe9SOEKotk",
+            "title": "BLACKPINK - ‘Shut Down’ M/V",
+            "thumbnail": "https://i.ytimg.com/vi/POe9SOEKotk/mqdefault.jpg"
+          }
+        },
+        "recommendations": [
+          {
+            "track": "How You Like That",
+            "artist": "BLACKPINK",
+            "album": "How You Like That",
+            "year": 2020,
+            "score": 0.873,
+            "scoreBreakdown": {
+              "lastfmSimilarity": 1,
+              "tagOverlap": 0.286,
+              "eraSimilarity": 0.8,
+              "popularity": 1,
+              "metadataBonus": 0.05,
+              "genreMatch": 1
+            },
+            "tags": [
+              "blackpink in your area",
+              "kpop",
+              "k-pop",
+              "pop"
+            ],
+            "bpm": null,
+            "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/c9f0162b45d83a689507f6ad580fd030.png",
+            "mbid": "ecb523dd-ae6c-4bab-b65b-4da2711615f7",
+            "youtube": null,
+            "sourceCount": 1
+          },
+          {
+            "track": "Pink Venom",
+            "artist": "BLACKPINK",
+            "album": "Pink Venom",
+            "year": 2022,
+            "score": 0.808,
+            "scoreBreakdown": {
+              "lastfmSimilarity": 0.8,
+              "tagOverlap": 0.25,
+              "eraSimilarity": 1,
+              "popularity": 1,
+              "metadataBonus": 0.05,
+              "genreMatch": 1
+            },
+            "tags": [
+              "k-pop",
+              "hip-hop",
+              "kpop",
+              "pop rap",
+              "snap"
+            ],
+            "bpm": null,
+            "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/1386df18af239aa912623b9f035a3a8a.png",
+            "mbid": "dbd3264b-c3a6-4709-b3ba-f059e20ecdda",
+            "youtube": null,
+            "sourceCount": 1
+          },
+          {
+            "track": "Lovesick Girls",
+            "artist": "BLACKPINK",
+            "album": "THE ALBUM -JP ver.-",
+            "year": 2021,
+            "score": 0.681,
+            "scoreBreakdown": {
+              "lastfmSimilarity": 0.467,
+              "tagOverlap": 0.429,
+              "eraSimilarity": 0.8,
+              "popularity": 1,
+              "metadataBonus": 0.05,
+              "genreMatch": 1
+            },
+            "tags": [
+              "k-pop",
+              "electropop",
+              "dance-pop",
+              "pop",
+              "pop rap"
+            ],
+            "bpm": null,
+            "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/e6528ecb766d9473e3dcad284c7facd0.png",
+            "mbid": "72abfada-b107-4d09-b1a6-69a84f312fde",
+            "youtube": null,
+            "sourceCount": 1
+          },
+          {
+            "track": "Typa Girl",
+            "artist": "BLACKPINK",
+            "album": "BORN PINK",
+            "year": 2022,
+            "score": 0.67,
+            "scoreBreakdown": {
+              "lastfmSimilarity": 0.3,
+              "tagOverlap": 0.667,
+              "eraSimilarity": 1,
+              "popularity": 1,
+              "metadataBonus": 0.05,
+              "genreMatch": 1
+            },
+            "tags": [
+              "k-pop",
+              "pop rap",
+              "hip hop",
+              "pop",
+              "trap"
+            ],
+            "bpm": null,
+            "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/1c8a155fb6f7ec750f7a1543279cbca5.png",
+            "mbid": "ff89cf6a-d535-4ae5-a7e2-37b5e2d55270",
+            "youtube": null,
+            "sourceCount": 1
+          },
+          {
+            "track": "Pretty Savage",
+            "artist": "BLACKPINK",
+            "album": "BLACKPINK LIVESTREAM CONCERT: THE SHOW",
+            "year": 2021,
+            "score": 0.665,
+            "scoreBreakdown": {
+              "lastfmSimilarity": 0.4,
+              "tagOverlap": 0.5,
+              "eraSimilarity": 0.8,
+              "popularity": 0.996,
+              "metadataBonus": 0.05,
+              "genreMatch": 1
+            },
+            "tags": [
+              "k-pop",
+              "trap",
+              "pop rap",
+              "pop"
+            ],
+            "bpm": null,
+            "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/2b346bdcc6f56e7d1f1c546b13cdacfb.png",
+            "mbid": "e7ec73af-d221-42f0-801f-47a35c63f81d",
+            "youtube": null,
+            "sourceCount": 1
+          },
+          {
+            "track": "Forever Young",
+            "artist": "BLACKPINK",
+            "album": "BLACKPINK 2021 ‘THE SHOW’ LIVE",
+            "year": 2021,
+            "score": 0.586,
+            "scoreBreakdown": {
+              "lastfmSimilarity": 0.3,
+              "tagOverlap": 0.25,
+              "eraSimilarity": 0.8,
+              "popularity": 0.986,
+              "metadataBonus": 0.05,
+              "genreMatch": 1
+            },
+            "tags": [
+              "k-pop",
+              "pop",
+              "dance",
+              "kpop",
+              "blackpink is the revolution"
+            ],
+            "bpm": null,
+            "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/cb31d13d768cc8c0a8a39d3130742535.png",
+            "mbid": "5a9cfeb7-56fe-47fc-a07e-7b1a1c4387f3",
+            "youtube": null,
+            "sourceCount": 1
+          }
+        ],
+        "stats": {
+          "tracksAnalyzed": 6,
+          "bestMatch": 87,
+          "averageMatch": 72,
+          "topTierMatch": 87,
+          "scoreSpread": 9.482,
+          "searchTimeMs": 22064,
+          "listenedTracks": 1
+        },
+        "mode": "session"
+      }
+order: 1786697666288

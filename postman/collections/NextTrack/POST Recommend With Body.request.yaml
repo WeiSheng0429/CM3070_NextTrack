@@ -1,0 +1,32 @@
+$kind: http-request
+url: http://localhost:5000/api/recommend
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"session\": [\r
+
+    \        {\r
+
+    \            \"track\": \"Shut Down\",\r
+
+    \            \"artist\": \"BLACKPINK\"\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"preferences\": {\r
+
+    \        \"genres\": [\"kpop\"],\r
+
+    \        \"sameDecade\": false,\r
+
+    \        \"sameArtist\": false\r
+
+    \    }\r
+
+    }"
+examples: .resources/POST Recommend With Body.resources/examples
+order: 4099325288641567

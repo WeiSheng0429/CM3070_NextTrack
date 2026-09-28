@@ -1,0 +1,10 @@
+$kind: http-request
+name: GET Recommend - Genre Filter
+url: http://localhost:5000/api/recommend?track=Shut%20Down&artist=BLACKPINK&genres=kpop
+method: GET
+queryParams:
+  track: Shut%20Down
+  artist: BLACKPINK
+  genres: kpop
+examples: .resources/GET Recommend - Genre Filter.resources/examples
+order: 3261163261761271

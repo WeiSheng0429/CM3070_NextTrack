@@ -1,0 +1,273 @@
+$kind: http-example
+request:
+  url: http://localhost:5000/api/recommend?track=Shut%20Down&artist=BLACKPINK&sameArtist=true
+  method: GET
+  queryParams:
+    track: Shut%20Down
+    artist: BLACKPINK
+    sameArtist: "true"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    access-control-allow-origin: "*"
+    content-type: application/json; charset=utf-8
+    content-length: "4375"
+    etag: W/"1117-fuWsVJcMjk0VwlzjyFrRV9wfI5g"
+    date: Fri, 14 Aug 2026 08:51:29 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      {
+        "success": true,
+        "searched": {
+          "track": "Shut Down",
+          "artist": "BLACKPINK",
+          "album": "BORN PINK",
+          "year": 2022,
+          "tags": [
+            "k-pop",
+            "pop",
+            "pop rap",
+            "hip hop",
+            "vocal"
+          ],
+          "bpm": null,
+          "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/1c8a155fb6f7ec750f7a1543279cbca5.png",
+          "youtube": {
+            "videoId": "POe9SOEKotk",
+            "title": "BLACKPINK - ‘Shut Down’ M/V",
+            "thumbnail": "https://i.ytimg.com/vi/POe9SOEKotk/mqdefault.jpg"
+          }
+        },
+        "recommendations": [
+          {
+            "track": "How You Like That",
+            "artist": "BLACKPINK",
+            "album": "How You Like That",
+            "year": 2020,
+            "score": 0.801,
+            "scoreBreakdown": {
+              "lastfmSimilarity": 1,
+              "tagOverlap": 0.286,
+              "eraSimilarity": 0.8,
+              "popularity": 1,
+              "metadataBonus": 0.05,
+              "genreMatch": null
+            },
+            "tags": [
+              "blackpink in your area",
+              "kpop",
+              "k-pop",
+              "pop"
+            ],
+            "bpm": null,
+            "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/c9f0162b45d83a689507f6ad580fd030.png",
+            "mbid": "ecb523dd-ae6c-4bab-b65b-4da2711615f7",
+            "youtube": null,
+            "sourceCount": 1
+          },
+          {
+            "track": "Kill This Love",
+            "artist": "BLACKPINK",
+            "album": "Kill This Love",
+            "year": 2019,
+            "score": 0.759,
+            "scoreBreakdown": {
+              "lastfmSimilarity": 0.933,
+              "tagOverlap": 0.25,
+              "eraSimilarity": 0.8,
+              "popularity": 1,
+              "metadataBonus": 0.05,
+              "genreMatch": null
+            },
+            "tags": [
+              "k-pop",
+              "kpop",
+              "trap",
+              "pop",
+              "electropop"
+            ],
+            "bpm": null,
+            "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/ec39ddfc6fddeea61be4fdca04832261.png",
+            "mbid": "12482e22-2534-443b-8462-629a0476b622",
+            "youtube": null,
+            "sourceCount": 1
+          },
+          {
+            "track": "DDU-DU DDU-DU",
+            "artist": "BLACKPINK",
+            "album": "DDU-DU DDU-DU",
+            "year": 2018,
+            "score": 0.735,
+            "scoreBreakdown": {
+              "lastfmSimilarity": 0.867,
+              "tagOverlap": 0.286,
+              "eraSimilarity": 0.8,
+              "popularity": 1,
+              "metadataBonus": 0.05,
+              "genreMatch": null
+            },
+            "tags": [
+              "kpop",
+              "k-pop",
+              "pop",
+              "girl group"
+            ],
+            "bpm": null,
+            "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/cb31d13d768cc8c0a8a39d3130742535.png",
+            "mbid": "7ecfbff0-aabc-48c3-ae1f-a9320fc93a70",
+            "youtube": null,
+            "sourceCount": 1
+          },
+          {
+            "track": "Pink Venom",
+            "artist": "BLACKPINK",
+            "album": "Pink Venom",
+            "year": 2022,
+            "score": 0.713,
+            "scoreBreakdown": {
+              "lastfmSimilarity": 0.8,
+              "tagOverlap": 0.25,
+              "eraSimilarity": 1,
+              "popularity": 1,
+              "metadataBonus": 0.05,
+              "genreMatch": null
+            },
+            "tags": [
+              "k-pop",
+              "hip-hop",
+              "kpop",
+              "pop rap",
+              "snap"
+            ],
+            "bpm": null,
+            "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/1386df18af239aa912623b9f035a3a8a.png",
+            "mbid": "dbd3264b-c3a6-4709-b3ba-f059e20ecdda",
+            "youtube": null,
+            "sourceCount": 1
+          },
+          {
+            "track": "AS IF IT'S YOUR LAST",
+            "artist": "BLACKPINK",
+            "album": "BLACKPINK ARENA TOUR 2018 “SPECIAL FINAL IN KYOCERA DOME OSAKA”",
+            "year": 2019,
+            "score": 0.593,
+            "scoreBreakdown": {
+              "lastfmSimilarity": 0.6,
+              "tagOverlap": 0.25,
+              "eraSimilarity": 0.8,
+              "popularity": 1,
+              "metadataBonus": 0.05,
+              "genreMatch": null
+            },
+            "tags": [
+              "k-pop",
+              "kpop",
+              "pop",
+              "korean",
+              "moombahton"
+            ],
+            "bpm": null,
+            "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/62485ef51d5de86af4141e965b7637fd.png",
+            "mbid": "4c5eadff-c86a-45e0-ba80-47ed21cc269d",
+            "youtube": null,
+            "sourceCount": 1
+          },
+          {
+            "track": "Lovesick Girls",
+            "artist": "BLACKPINK",
+            "album": "THE ALBUM -JP ver.-",
+            "year": 2021,
+            "score": 0.57,
+            "scoreBreakdown": {
+              "lastfmSimilarity": 0.467,
+              "tagOverlap": 0.429,
+              "eraSimilarity": 0.8,
+              "popularity": 1,
+              "metadataBonus": 0.05,
+              "genreMatch": null
+            },
+            "tags": [
+              "k-pop",
+              "electropop",
+              "dance-pop",
+              "pop",
+              "pop rap"
+            ],
+            "bpm": null,
+            "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/e6528ecb766d9473e3dcad284c7facd0.png",
+            "mbid": "72abfada-b107-4d09-b1a6-69a84f312fde",
+            "youtube": null,
+            "sourceCount": 1
+          },
+          {
+            "track": "Typa Girl",
+            "artist": "BLACKPINK",
+            "album": "BORN PINK",
+            "year": 2022,
+            "score": 0.567,
+            "scoreBreakdown": {
+              "lastfmSimilarity": 0.3,
+              "tagOverlap": 0.667,
+              "eraSimilarity": 1,
+              "popularity": 1,
+              "metadataBonus": 0.05,
+              "genreMatch": null
+            },
+            "tags": [
+              "k-pop",
+              "pop rap",
+              "hip hop",
+              "pop",
+              "trap"
+            ],
+            "bpm": null,
+            "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/1c8a155fb6f7ec750f7a1543279cbca5.png",
+            "mbid": "ff89cf6a-d535-4ae5-a7e2-37b5e2d55270",
+            "youtube": null,
+            "sourceCount": 1
+          },
+          {
+            "track": "JUMP",
+            "artist": "BLACKPINK",
+            "album": "2025 MegaMix",
+            "year": 2025,
+            "score": 0.563,
+            "scoreBreakdown": {
+              "lastfmSimilarity": 0.667,
+              "tagOverlap": 0,
+              "eraSimilarity": 0.8,
+              "popularity": 1,
+              "metadataBonus": 0.05,
+              "genreMatch": null
+            },
+            "tags": [
+              "electronic",
+              "techno",
+              "edm",
+              "dance",
+              "soty"
+            ],
+            "bpm": null,
+            "albumArt": "https://lastfm-img.freetls.fastly.net/i/u/174s/34a47b332e7efeb5afe98875703f941b.png",
+            "mbid": "8bbec865-8527-4a28-993a-8c81caf3e6ea",
+            "youtube": null,
+            "sourceCount": 1
+          }
+        ],
+        "stats": {
+          "tracksAnalyzed": 14,
+          "bestMatch": 80,
+          "averageMatch": 66,
+          "topTierMatch": 80,
+          "scoreSpread": 9.324,
+          "searchTimeMs": 50505,
+          "listenedTracks": 1
+        },
+        "mode": "session"
+      }
+order: 1786697615343

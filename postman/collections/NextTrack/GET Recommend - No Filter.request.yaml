@@ -1,0 +1,9 @@
+$kind: http-request
+name: GET Recommend - No Filter
+url: http://localhost:5000/api/recommend?track=Shut%20Down&artist=BLACKPINK
+method: GET
+queryParams:
+  track: Shut%20Down
+  artist: BLACKPINK
+examples: .resources/GET Recommend - No Filter.resources/examples
+order: 3247530617821864
